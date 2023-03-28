@@ -1,6 +1,6 @@
-# dc_netstat
+# netstat_dc
 
-Data Collection NetStat script
+NetStat Data Collection script
 
 A simple utility that will create 2 files based on netstat output.
 
@@ -16,8 +16,10 @@ File 2 contains output based on the following rules
   3. Record the output to a csv file  
 
 Set the script as executable then you can run this file as-is or execute it via cron every 15 minutes.
+
 `# ./dc_netstat.sh`
 
 For Solaris boxen:
 Set the script as executable then you can run this file as-is or execute it via cron every 15 minutes.
+
 `# ./solaris_dc_netstat_v2.sh`
