@@ -23,3 +23,5 @@ For Solaris boxen:
 Set the script as executable then you can run this file as-is or execute it via cron every 15 minutes.
 
 `# ./solaris_dc_netstat_v2.sh`
+
+With these files you can use Splunk or the like to process them and find common communication between servers and latency of these connections.
